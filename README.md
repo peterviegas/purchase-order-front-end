@@ -25,3 +25,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+This Front-End was created in an Angular 14 framework for registering and controlling salespeople, customers and purchase orders, consuming the API built in the purchase-order-back-end (java spring) project hosted on the Herokun platform.
+Note: The free Heroku account was used and after 30 minutes the API goes into sleeping mode so on the next request it may take about 30 seconds to respond
+
+https://peterviegas-github-io.vercel.app/
