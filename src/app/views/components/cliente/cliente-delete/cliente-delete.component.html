@@ -1,0 +1,17 @@
+<form class="form mat-elevation-z8">
+    <h1>Deletar Cliente</h1>
+    <mat-form-field class="full-width" appearance="fill">
+        <mat-label>Nome</mat-label>
+        <input [(ngModel)]="cliente.nome" name="nome" disabled maxLength="100" matInput placeholder="Ex. Linus Torvalds">
+    </mat-form-field>
+    <mat-form-field class="full-width" appearance="fill">
+        <mat-label>CPF</mat-label>
+        <input [(ngModel)]="cliente.cpf" name="cpf" disabled maxLength="15" matInput placeholder="Ex. 000.000.000-00">
+    </mat-form-field>
+    <mat-form-field class="full-width" appearance="fill">
+        <mat-label>Telefone</mat-label>
+        <input [(ngModel)]="cliente.telefone" name="telefone" disabled maxLength="18" matInput placeholder="Ex. (00) 900000-0000">
+    </mat-form-field>
+    <button class="mat-elevation-z8" (click)="delete()" mat-stroked-button color="accent">Deletar</button>
+    <button class="mat-elevation-z8" (click)="cancel()" mat-stroked-button color="warn">Cancelar</button>
+</form>
